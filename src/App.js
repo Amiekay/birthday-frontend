@@ -24,7 +24,7 @@ function App() {
       dateOfBirth: '',
     });
     try {
-      const response = await fetch('http://localhost:4000/signup', {
+      const response = await fetch('https://birthday-reminder-app-tenh.onrender.com/signup', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
